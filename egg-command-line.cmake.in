@@ -1,0 +1,21 @@
+# Egg::CommandLine library configuration
+
+IF ( NOT EggCommandLineIncludePath OR
+     NOT EggCommandLineLibraryPath OR
+     NOT EggCommandLineLibraryName )
+
+  SET (	EggCommandLineIncludePath	"@CMAKE_INSTALL_FULL_INCLUDEDIR@"
+	CACHE		PATH "Egg (Linux SDK) command line includes"
+	)
+
+  SET (	EggCommandLineLibraryPath	"@CMAKE_INSTALL_FULL_LIBDIR@"
+	CACHE		PATH "Egg (Linux SDK) command line library"
+	)
+
+  SET (	EggCommandLineLibraryName	"@LibraryName@"
+	CACHE		PATH "Egg (Linux SDK) command line library name"
+	)
+
+ENDIF ()
+
+# End of file
