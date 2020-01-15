@@ -1,8 +1,8 @@
 # Egg-CommandLine
 
 This is the command line library required by the Egg project - the Linux 
-daemon handy SDK. The registry library requires the Egg::System, Egg::Variable
-and Egg::Registry to be installed.
+daemon handy SDK. The command line library requires the Egg::System, 
+Egg::Variable and Egg::Registry to be installed.
 
 # How to build?
 
